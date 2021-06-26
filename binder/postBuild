@@ -1,0 +1,4 @@
+jupyter serverextension enable --sys-prefix jupyter_server_proxy
+mv ./binder/cosappserverextension.py ${NB_PYTHON_PREFIX}/lib/python*/site-packages/
+jupyter serverextension enable --sys-prefix cosappserverextension
+cosapp module register projectile_motion

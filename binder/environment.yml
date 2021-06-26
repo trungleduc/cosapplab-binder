@@ -1,0 +1,12 @@
+name: cosapp-environment
+channels:
+  - conda-forge
+  - cosapp
+dependencies:
+  - cosapp_lab>=0.15.4
+  - jupyter-server-proxy
+  - git
+  - pip
+  - pip:
+    - git+https://github.com/trungleduc/projectile-motion.git
+
