@@ -1,0 +1,15 @@
+name: Build-image
+
+on:
+  push:
+    branches: master
+  schedule:
+    - cron: '0 0 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Build binder image
+      run: |
+        curl -L https://mybinder.org/build/gh/trungleduc/cosapplab-binder/master?urlpath=proxy/6789/
