@@ -8,6 +8,6 @@ dependencies:
   - git
   - pip
   - pip:
-    - git+https://github.com/trungleduc/projectile-motion.git@10312dfc2ec3417cb94a020ef8f1c1329d1205d9
+    - git+https://github.com/trungleduc/projectile-motion.git@84ad78ae2880311e77fd20fe993555ae4b236916
     - git+https://github.com/trungleduc/simple-beam.git@4609581099dc9f07544db15d8d048e403f8e566e
 
